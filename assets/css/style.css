@@ -1,0 +1,93 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: url(../images/diagonal_striped_brick/diagonal_striped_brick/diagonal_striped_brick.png);
+    color: #655757;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar {
+    background-image: url(../images/retina_wood/retina_wood.png);
+}
+
+.nav-container {
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #655757;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar,
+.navbar-expand-md,
+.navbar-light,
+.bg-light,
+.navbar-brand,
+.img-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar,
+.navbar-expand-md,
+.navbar-light,
+.bg-light {
+    border-bottom: 1px solid grey;
+}
+
+.main-container {
+    margin-top: 30px;
+    background-image: url(../images/retina_wood/retina_wood.png);
+    padding: 0px;
+    border: 1px solid grey;
+}
+
+
+.profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 10px solid #4aaaa5;
+}
+
+.col-6,
+.col-md-4 {
+    padding: 0px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 30px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+/* Set fixed height of the footer */
+    height: 30px;
+    background-color: #4aaaa5;
+    border-top: 5px solid grey;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 80%;
+    margin: 0px;
+    color: white;
+}
