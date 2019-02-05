@@ -7,9 +7,9 @@ body {
     background: url(../images/diagonal_striped_brick/diagonal_striped_brick/diagonal_striped_brick.png);
     color: #655757;
     font-weight: 500;
-    font-size: 20px;
-    /* Margin bottom by footer height */
-    margin-bottom: 30px;
+    font-size: 19px;
+    /* Margin bottom 30px more than footer height */
+    margin-bottom: 60px;
 }
 
 /* Navbar style */
@@ -54,6 +54,7 @@ body {
     background-image: url(../images/retina_wood/retina_wood.png);
     padding: 0px;
     border: 1px solid grey;
+    height: 605px;
 }
 
 /* Index page style */
@@ -78,6 +79,32 @@ p {
     margin-top: 0px;
 }
 
+/* Portfolio page style*/
+
+.col-4 {
+    margin-bottom: 22px;
+}
+
+.col-4,
+.picbox,
+.boxImage {
+    width: 300px;
+    height: 150px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    background: #4aaaa5;
+    border-top: solid 2px grey;
+    border-bottom: solid 2px grey;
+    color: white;
+    text-align:center;
+}
+
 /* Contact page style */
 
 form {
@@ -93,10 +120,6 @@ form {
     background-color: #4aaaa5;
     border: 1px solid grey;
     margin-bottom: 10px;
-}
-
-.contact {
-    padding-left: 0px;
 }
 
 /* Footer style */
