@@ -54,25 +54,29 @@ body {
     background-image: url(../images/retina_wood/retina_wood.png);
     padding: 0px;
     border: 1px solid grey;
-    height: 605px;
 }
 
 /* Index page style */
 
 .profilePic {
     display: block;
-    margin: 7px 15px 22px 15px;
-    width: 100%;
+    margin: 7px 15px 22px 30px;
+    width: 97%;
     border: 10px solid #4aaaa5;
 }
 
-.col-6,
+.col-12,
 .col-md-4 {
     padding: 0px;
 }
 
+.col-12 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 p {
-    margin: 15px 0px 0px 15px;
+    margin: 15px 15px 15px 25px;
 }
 
 .p1 {
@@ -81,11 +85,11 @@ p {
 
 /* Portfolio page style*/
 
-.col-4 {
+.picCol {
     margin-bottom: 22px;
 }
 
-.col-4,
+.picCol,
 .picbox,
 .boxImage {
     width: 300px;
@@ -109,6 +113,10 @@ p {
 
 form {
     width: 100%;
+}
+
+.formCol {
+    flex: 0%;
 }
 
 #messageInput {
@@ -139,4 +147,41 @@ footer {
     font-size: 80%;
     margin: 0px;
     color: white;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 980px) {
+    .textBackground {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profilePic {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .main-container{
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 15px 15px 15px;
+        text-align: justify;
+    }
+
+    .row {
+        margin-left: 0px;
+    }
 }
