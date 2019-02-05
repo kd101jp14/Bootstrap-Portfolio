@@ -8,7 +8,11 @@ body {
     color: #655757;
     font-weight: 500;
     font-size: 20px;
+    /* Margin bottom by footer height */
+    margin-bottom: 30px;
 }
+
+/* Navbar style */
 
 .navbar {
     background-image: url(../images/retina_wood/retina_wood.png);
@@ -52,11 +56,11 @@ body {
     border: 1px solid grey;
 }
 
+/* Index page style */
 
 .profilePic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 7px 15px 22px 15px;
     width: 100%;
     border: 10px solid #4aaaa5;
 }
@@ -67,19 +71,41 @@ body {
 }
 
 p {
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin: 15px 0px 0px 15px;
 }
 
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 30px;
+.p1 {
+    margin-top: 0px;
 }
+
+/* Contact page style */
+
+form {
+    width: 100%;
+}
+
+#messageInput {
+    max-height: 260px;
+    min-height: 230px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding-left: 0px;
+}
+
+/* Footer style */
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-/* Set fixed height of the footer */
+    /* Set fixed height of the footer */
     height: 30px;
     background-color: #4aaaa5;
     border-top: 5px solid grey;
