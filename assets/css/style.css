@@ -163,6 +163,9 @@ footer {
 
     p {
         margin: 15px 15px 15px 15px;
+    }
+
+    #aboutContainer {
         text-align: justify;
     }
 
