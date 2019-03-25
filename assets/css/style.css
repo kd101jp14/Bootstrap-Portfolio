@@ -106,9 +106,16 @@ form {
     margin-bottom: 10px;
 }
 
+#github,
+#linkedin {
+    float: right;
+    margin-right: 20px;
+}
+
 /* Footer style */
 
 footer {
+    clear: both;
     position: absolute;
     bottom: 0;
     width: 100%;
