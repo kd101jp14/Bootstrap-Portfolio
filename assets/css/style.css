@@ -69,10 +69,25 @@ body {
 
 .profilePic {
     display: block;
-    margin: 7px 15px 22px 30px;
-    width: 97%;
+    margin: auto;
+    width: 20%;
     border: 10px solid #4aaaa5;
 }
+
+.welcome {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px, auto, 20px, auto;
+}
+ .enterButton {
+    margin: 20px;
+ }
+
+ #enter {
+    font-size: 30px;
+    display: block;
+    margin: auto;
+ }
 
 #resume {
     color: #556968;
