@@ -65,13 +65,18 @@ body {
     border: 1px solid grey;
 }
 
-/* Index page style */
+/* page styles */
 
 .profilePic {
     display: block;
     margin: 7px 15px 22px 30px;
     width: 97%;
     border: 10px solid #4aaaa5;
+}
+
+#resume {
+    color: #556968;
+    text-shadow: 1px 1px black;
 }
 
 .col-sm-6 {
