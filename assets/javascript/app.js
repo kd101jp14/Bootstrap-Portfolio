@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     // Initialize Firebase
     var config = {
         apiKey: "AIzaSyBSJJcs5rbxaFMsW3sHR8puX4IhR-AX-g0",
@@ -10,9 +9,12 @@ $(document).ready(function () {
         storageBucket: "portfolio-contact-ff50a.appspot.com",
         messagingSenderId: "196034384234"
     };
+
     firebase.initializeApp(config);
 
-    var database = firebase.datase();
+    var database = firebase.database();
+
+    console.log("hello");
 
     $("#submitButton").on("click", function (event) {
 
@@ -24,7 +26,9 @@ $(document).ready(function () {
         var contactEmail = $("#emailInput").val().trim();
         var contactMessage = $("#messageInput").val().trim();
 
-
+        console.log(contactName);
+        console.log(contactEmail);
+        console.log(contactMessage);
 
         // Keys and values for Firebase database
         var contactInfo = {
@@ -47,6 +51,10 @@ $(document).ready(function () {
         var contactName = childSnapshot.val().contactName;
         var contactEmail = childSnapshot.val().contactEmail;
         var contactMessage = childSnapshot.val().contactMessage;
+
+        console.log(contactName);
+        console.log(contactEmail);
+        console.log(contactMessage);
 
     });
 });
