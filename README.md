@@ -6,13 +6,22 @@ kd101jp14
 
 ## Technology
 
-* HTML5, CSS3, Bootstrap 4
+* HTML5
+* CSS3
+* Bootstrap 4
 
-* Live demo: https://kd101jp14.github.io/Bootstrap-Portfolio/
+## Live demo:
+https://kd101jp14.github.io/Bootstrap-Portfolio/
 
 ## About
 
-* This portfolio is a collection of 3 linked web pages (About, Portfolio, and Contact) and related files. They were created using HTML, CSS, and Bootstrap. The `About` page provides a profile image and text. The `Portfolio` page has 5 clickable images (which are currently placeholder links.) The `Contact` page contains elements where a person's name, email, and message may be entered. The text that is enetered into the fields do not currently go anywhere, as this page is solely HTML and CSS. This is part of the second Vanderbilt Coding Bootcamp homework assignment.
+This portfolio is a collection of 4 linked web pages (Welcome, About, Portfolio, and Contact) and related files. They were created using HTML, CSS, and Bootstrap. The `About` page provides a little text about me and a link to my resume. The `Portfolio` page contains projects that I have created during my full stack coding boot camp at Vanderbilt University. The `Contact` page contains elements where visitor may submit his or her name, email, and a message.
+
+### The Challenge
+The challenge of making this portfolio began with learning how to utilize Bootstrap to create the page layouts. The portfolio prior to this project was created using strictly HTML and CSS. Although learning a new framework was challenging, it was also rewarding. Bootstrap allowed this project to be mobile-responsive with ease.
+
+## Screenshot
+![Portfolio Screenshot](assets/images/portfolio_screenshot.jpg)
 
 ## License
 
