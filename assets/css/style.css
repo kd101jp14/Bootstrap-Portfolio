@@ -5,6 +5,8 @@ html {
 
 body {
     background: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     color: #655757;
     font-weight: 500;
     font-size: 19px;
