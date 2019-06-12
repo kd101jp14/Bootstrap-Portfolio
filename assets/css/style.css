@@ -134,6 +134,10 @@ form {
     margin-right: 20px;
 }
 
+#liri {
+    max-height: 283px !important;
+}
+
 /* Footer style */
 
 footer {
